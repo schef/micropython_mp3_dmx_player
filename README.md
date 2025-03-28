@@ -1,1 +1,1 @@
-# circuitpython_mp3_player
+# micropython_mp3_dmx_player
