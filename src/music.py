@@ -31,7 +31,8 @@ SONGS = {
     19: Song(18, 100),
     20: Song(19, 100),
     21: Song(20, 100),
-    90: Song(21, 100)
+    22: Song(21, 100),
+    90: Song(22, 100),
 }
 
 def play_by_index(index):

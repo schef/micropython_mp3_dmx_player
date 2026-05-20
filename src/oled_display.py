@@ -27,8 +27,8 @@ def init():
 def set_music_index(index):
     global music_index
     music_index = index
-    if music_index > len(music.SONGS):
-        music_index = len(music.SONGS)
+    if music_index > len(music.SONGS) - 1:
+        music_index = len(music.SONGS) - 1
     elif music_index < 1:
         music_index = 1
 
